@@ -1,0 +1,13 @@
+font:
+  normal: 
+    family: Fira Code Nerd Font
+    style: Regular
+  size: 8.0
+
+colors:
+  primary:
+    background: '#282828'
+
+shell:
+  program: /bin/fish
+

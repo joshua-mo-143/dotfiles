@@ -1,0 +1,24 @@
+layout {
+    tab_template name="ranger-on-the-side" {
+        pane size=1 borderless=true {
+        }
+        pane split_direction="vertical" {
+
+            children
+        }
+    }
+
+    tab_template name="config" {
+        pane size=1 borderless=true {
+			
+        }
+        pane split_direction="vertical" {
+            children
+        }
+    }
+
+    config name="config" split_direction="vertical" {
+        pane command="btm"
+    }
+    ranger-on-the-side name="my first tab" split_direction="horizontal" {}
+}
